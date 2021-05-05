@@ -1,0 +1,300 @@
+#collapsibleNavbar{
+    background: rgba(46, 233, 217, 0.514);
+}
+
+nav ul li{
+    list-style: none;
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #1b1a17;
+  }
+
+  #star{
+    animation-duration: 10s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  }
+  @keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+  @media screen and (max-width: 768px){
+    #banner{
+      height:30vh;
+    }
+  }
+
+  .navbar{
+    padding:0 0 5.5rem;
+     transition: top 0.3s;
+  }
+  .navbar-brand{
+    font-family: "ubantu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .nav-bar{
+    padding: 0 50px;
+  }
+  .nav-link{
+    font-size:1.2rem;
+    font-family:"Montserrat-Light";
+    text-align: center;
+    color: inherit;
+  }
+
+  *{
+      margin: 0;
+      padding: 0;
+  }
+
+  #title{
+    background-color: #ffe6ca;
+  }
+
+  #banner{
+     background-image: linear-gradient( rgba(255, 99, 71, 0.7),rgba(255, 99, 71, 0.2)),url(banner.png);
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      width: 100%;
+      position: relative;
+  }
+
+  .logo{
+      width: 150px;
+      position: absolute;
+      left: 45%;
+      top: 7%;
+
+
+  }
+  .banner-text{
+      text-align: center;
+      padding-top: 250px;
+      color: white;
+      position: relative;
+
+  }
+  .banner-text h1{
+      font-size: 50px;
+      font-family: 'Original Surfer', cursive;
+      padding-left: 20px;
+  }
+  .banner-text p{
+      font-size: 25px;
+      padding-top: 30px;
+      padding-left: 30px;
+  }
+  .banner-btn{
+      padding-top: 30px;
+  }
+
+  @media screen and (max-width : 750px)
+  {
+      .banner-text h1 {
+          font-size: 30px;
+          flex-basis: 100%;
+          padding-left: 5px;
+      }
+     .banner-btn {
+         display: block;
+         margin: 20px auto;
+     }
+   }
+
+  /*------------About--------*/
+  #About{
+      width: 100%;
+      padding: 70px 0;
+  }
+  .title-text{
+      text-align: center;
+      padding-bottom: 70px;
+      margin-bottom: 20px;
+      margin-top: 50px;
+      padding-top: 70px;
+  }
+  .title-text p{
+      margin: auto;
+      font-size: 40px;
+      color: #c64756;
+      font-weight: bolder;
+      position: relative;
+      z-index: 1;
+      display: inline-block;
+  }
+
+  .title-text h1{
+      font-size: 30px;
+  }
+  .row{
+      background: radial-gradient(rgb(255,192,203) , transparent);
+      height: 80vh;
+      margin-bottom: 10px;
+      width: 100%;
+      text-align: center;
+  }
+  .row h1{
+    font-family: 'Amatic SC', cursive;
+  }
+  .row p{
+    font-family: 'Indie Flower', cursive;
+  }
+
+  .row1{
+      background: radial-gradient(rgb(255,192,203) , transparent);
+      height: 100vh;
+      margin-bottom: 10px;
+      width: 100%;
+  }
+}
+
+
+@media  screen and(max-width:770px)
+{
+    .col-2 {
+        flex-basis: 100%;
+    }
+    .title-text .row{
+        font-size: 2em;
+        height: 110vh;
+    }
+    .col-2 img{
+      width: 50%;
+    }
+}
+
+.col-2{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    align-items: center;
+    margin-left: 35%;
+}
+.col-2 img{
+    margin: auto;
+    width: 200%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    align:center;
+    align-items: center;
+    border-radius: 15px 50px;
+    padding: 20px;
+}
+.col-2 h1 {
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+
+@media  screen and(max-width:770px)
+{
+    .col-2 {
+        flex-basis: 100%;
+        font-size: 12px;
+        height: 110vh;
+    }
+    .title-text .row{
+        font-size: 12px;
+        height: 110vh;
+        padding-bottom: 210px;
+    }
+}
+
+
+
+#testimonials{
+  text-align: center;
+  background-color:#ca8a8b;
+  color: #fff;
+  font-size: 20px;
+}
+
+.carousel-item{
+
+    padding: 7% 15%;
+}
+.quotes{
+  font-family: 'Architects Daughter', cursive;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+@media  screen and (max-width:750px)
+ {
+     .title-text{
+         font-size: 35px;
+         flex-basis: 100%;
+     }
+     .colored-section{
+         flex-basis: 100%;
+     }
+}
+
+
+.footer-row{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bottom-container {
+  background-color: #f6e6e4;
+  height: 30vh;
+  margin-bottom: 0px;
+  line-height: 2.5;
+  text-align: center;
+}
+
+.contact-me{
+     background-color: #e6c4c0;
+     color: #845460;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     text-align: center;
+     height: 30vh;
+}
+
+}
+.social-links{
+    text-align: center;
+    padding: 7% 15%;
+}
+.social-links{
+  margin: 20px 10px ;
+}
+
+@media  screen and (max-width: 750px)
+{
+    .footer-row {
+        flex-basis: 100%;
+        font-size: 14px;
+        height:50vh;
+    }
+    .bottom-container {
+        flex-basis: 100%;
+        font-size: 14px;
+    }
+    .contact-me{
+      flex-basis: 100%;
+      font-size: 14px;
+    }
+}
